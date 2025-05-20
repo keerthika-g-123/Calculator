@@ -3,8 +3,9 @@ class calculator
 {
 public static void main(String[] args)
   {
-   int a=2;
-    int b=9;
+    Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
     System.out.println("The Addition value:"+a+b);
      System.out.println("The subtraction value:"+a-b);
      System.out.println("The multiplication value:"+a*b);
